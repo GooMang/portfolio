@@ -1,0 +1,231 @@
+body {
+  background-color: white;
+  font-family: 'Khula', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  color: black;
+
+  --max-width: 950px;
+}
+
+/*                                  HEADING                                  */
+
+.heading {
+  border-bottom: 1px solid #828282;
+  background-color: white;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.heading__navigations {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 32px;
+  margin: 0px 251px 32px 251px;
+}
+
+.navigations_item {
+  text-decoration: none;
+  color: #828282;
+  outline: none;
+}
+
+.navigations_item:active {
+  color: black;
+}
+
+/*                                  INFO                                  */
+
+.info {
+  padding: 40px 251px 105px 251px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.info :not(:last-child) {
+  margin-bottom: 50px;
+}
+
+.info__name {
+  font-size: 47px;
+}
+
+.info__my-work {
+  display: flex;
+  align-self: flex-end;
+  flex-direction: column;
+}
+
+.info__language {
+  align-self: center;
+  transform: translateX(50%) rotate(270deg) translateY(-50%);
+  padding-top: 50px;
+}
+
+.info__language_active {
+  color: #828282;
+  text-decoration: none;
+}
+
+.info__language_inactive {
+  color: black;
+  text-decoration: none;
+}
+
+.info__my-face {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+/*                                  ABOUT-ME                                  */
+
+.about-me {
+  background-color: #f6f6f6;
+  text-align: center;
+  padding: 120px 0px 107px 0px;
+}
+
+.about-me :not(:last-of-type) {
+  margin-bottom: 40px;
+}
+
+.about-me__heading {
+  font-size: 47px;
+  margin-bottom: 40px;
+}
+
+
+/*                                  SKILLS                                  */
+.skills {
+  max-width: var(--max-width);
+  padding-top: 91px;
+  padding-bottom: 110px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.skills__heading {
+  font-size: 43px;
+  margin-bottom: 68px;
+}
+
+.skills__text {
+  font-size: 18px;
+  margin-bottom: 84px;
+}
+
+.skills__my-programms {
+  color: #828282;
+  display: flex;
+  justify-content: space-between;
+}
+
+.my-skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.my-skills__img {
+  margin-bottom: 23px;
+}
+
+.my-skills__name {
+  margin-bottom: 41px;
+}
+
+.my-skills__rating {
+  display: flex;
+}
+
+.rating__star:not(:last-of-type) {
+  margin-right: 9px;
+}
+
+/*                                  PORTFOLIO                                  */
+.portfolio {
+  background-color: #f6f6f6;
+  text-align: center;
+  padding: 113px 251px 96px 251px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.portfolio__heading {
+  font-size: 34px;
+  margin-bottom: 47px;
+}
+
+.portfolio__my-web {
+  margin-bottom: 99px;
+  width: 937px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.portfolio__my-web_img {
+  margin-bottom: 45px;
+}
+
+.portfolio__my-web_text {
+  color: black;
+}
+
+/*                                  CONTACTS                                  */
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 115px;
+  padding-bottom: 124px;
+  width: 100%;
+}
+
+.contacts__heading {
+  font-size: 34px;
+  margin-bottom: 20px;
+}
+
+.contacts__text {
+  margin-bottom: 30px;
+}
+
+.contacts__send-message {
+  color: white;
+  background-color: black;
+  width: 181px;
+  padding: 8px 16px;
+  border-radius: 16px;
+  margin-bottom: 86px;
+  margin-left: 50%;
+  transform: translate(-50%, 0%);
+  text-decoration: none;
+}
+
+.contacts__social-links {
+  margin: 0px 0px 45px 50%;
+  transform: translate(-50%, 0%);
+}
+
+.contacts__social-links :not(:last-of-type) {
+  margin-right: 62px;
+}
+
+.contacts__social-links_comments {
+  color: #828282;
+}
+
+.contacts__social-links_comments .text-links {
+  text-decoration: none;
+  color: #828282;
+}
